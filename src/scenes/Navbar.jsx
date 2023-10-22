@@ -44,7 +44,7 @@ return (
                     setSelectedPage={setSelectedPage}
                     />
                     <Link 
-                    page="Testimonials"
+                    page="Frameworks"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                     />
@@ -88,7 +88,7 @@ return (
                     setSelectedPage={setSelectedPage}
                     />
                     <Link 
-                    page="Testimonials"
+                    page="Frameworks"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                     />
