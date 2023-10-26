@@ -21,8 +21,8 @@ const Landing = ({setSelectedPage}) => {
                     visible: {opacity: 1, y: 0}
                 }}>
                     {isAboveMediumScreens ? (
-                        <div className="relative z-0 ml-20 ">
-                            <img src={ProfilePicture} alt="profile-picture" className="z-10 w-fit h-[550px] max-w-[400px] md:max-w-[600px] rounded-full" />
+                        <div className="relative z-0 ">
+                            <img src={ProfilePicture} alt="profile-picture" className="z-10 w-fit h-[550px] max-w-[350px] md:max-w-[600px] rounded-full" />
                         </div>
                     ) : (
                         <img src={ProfilePicture} alt="profile picture" className="z-10 w-full max-w-[400px] md:max-w-[600] rounded-full" />
@@ -43,8 +43,8 @@ const Landing = ({setSelectedPage}) => {
                         visible: {opacity: 1, x: 0}
                     }}
                     >
-                        <p className="text-6xl font-playfair z-10 text-center md:text-start">
-                            Enifome {""} <span className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush before:absolute before:-left-[30px] before:-top-[70px] before:z-[-1]">Alalor</span>
+                        <p className="text-6xl font-playfair z-10 text-center md:text-start ">
+                            Enifome {""} <span className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush before:absolute before:-left-[30px] before:-top-[70px] before:z-[-1] ">Alalor</span>
                         </p>
 
                         <p className="mt-10 mb-7 text-sm text-center md:text-start">
