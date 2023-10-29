@@ -87,7 +87,7 @@ const Projects = () => {
       {/* PROJECTS */}
       <div className="flex justify-center">
         <motion.div
-          className="sm:grid sm:grid-cols-3 w-3/4"
+          className="sm:grid sm:grid-cols-3"
           variants={container}
           initial="hidden"
           whileInView="visible"
@@ -101,18 +101,21 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <Project 
+          className="max-w-[400px] max-h-[400px]"
           title="Task Tracker" 
           description="A task tracker application meticulously crafted with React. This platform serves as a shining example of how my skills are applied to real-world scenarios in the realm of task management."
           img={taskTracker}
           link1={"https://github.com/eni-fome/React-task-tracker.git"}
-          link2={"https://react-task-tracker-alpha-one.vercel.app/"}/>
+          link2={"https://react-task-tracker-alpha-one.vercel.app/"}
+          />
 
           <Project
           title="Fitness Website" 
           description="Experience Evogym to witness the culmination of technology and wellness, designed exclusively for women. This platform exemplifies the fusion of strength, skill, and real-world application."
           img={fitnessSite}
           link1={"https://github.com/eni-fome/react-gym-site.git"} 
-          link2={"https://react-gym-site-xb5r.vercel.app/"}/>
+          link2={"https://react-gym-site-xb5r.vercel.app/"}
+          />
 
           {/* ROW 2 */}
           <Project 
@@ -120,7 +123,8 @@ const Projects = () => {
           description="An expert recreation of the popular streaming website Netflix, showcasing my eye for detail and functionality and also the translation of my skills into real world scenarios."
           img={netflixClone}
           link1={"https://github.com/eni-fome/Netflix-Landing-page.git"}
-          link2={"https://netflix-landing-page-two.vercel.app/"}/>
+          link2={"https://netflix-landing-page-two.vercel.app/"}
+          />
 
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
