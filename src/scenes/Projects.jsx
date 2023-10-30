@@ -101,7 +101,7 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <Project 
-          className="max-w-[400px] max-h-[400px]"
+          className="max-w-[400px] max-h-[400px] object-cover"
           title="Task Tracker" 
           description="A task tracker application meticulously crafted with React. This platform serves as a shining example of how my skills are applied to real-world scenarios in the realm of task management."
           img={taskTracker}
@@ -110,6 +110,7 @@ const Projects = () => {
           />
 
           <Project
+          className="max-w-[400px] max-h-[400px] object-cover"
           title="Fitness Website" 
           description="Experience Evogym to witness the culmination of technology and wellness, designed exclusively for women. This platform exemplifies the fusion of strength, skill, and real-world application."
           img={fitnessSite}
@@ -119,6 +120,7 @@ const Projects = () => {
 
           {/* ROW 2 */}
           <Project 
+          className="max-w-[400px] max-h-[400px] object-cover"
           title="Netflix Clone"   
           description="An expert recreation of the popular streaming website Netflix, showcasing my eye for detail and functionality and also the translation of my skills into real world scenarios."
           img={netflixClone}
