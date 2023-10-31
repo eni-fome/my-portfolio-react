@@ -61,7 +61,7 @@ return (
                 </button>
             )}
 
-            {/* Pop uo menu */}
+            {/* Pop up menu */}
             {!isAboveSmallScreens && isMenuToggled &&(
                 <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
                     {/* Close icon */}
