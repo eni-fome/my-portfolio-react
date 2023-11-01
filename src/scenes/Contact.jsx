@@ -75,7 +75,7 @@ import { motion } from "framer-motion";
                 method="POST"
             >
                 <input
-                className="w-full bg-blue font-semibold placeholder-opaque-black p-3"
+                className="w-full bg-blue font-semibold placeholder-opaque-black p-3 rounded-xl"
                 type="text"
                 placeholder="NAME"
                 {...register("name", {
@@ -91,7 +91,7 @@ import { motion } from "framer-motion";
                 )}
 
                 <input
-                className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+                className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5 rounded-xl"
                 type="text"
                 placeholder="EMAIL"
                 {...register("email", {
@@ -107,7 +107,7 @@ import { motion } from "framer-motion";
                 )}
 
                 <textarea
-                className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+                className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5 rounded-xl"
                 name="message"
                 placeholder="MESSAGE"
                 rows="4"
@@ -127,7 +127,7 @@ import { motion } from "framer-motion";
                 )}
 
                 <button
-                className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
+                className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500 rounded-xl"
                 type="submit"
                 >
                 SEND ME A MESSAGE
